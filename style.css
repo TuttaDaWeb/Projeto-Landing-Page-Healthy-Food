@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right, #28a324, #032500);
+}
+.navbar-header{
+    background: -webkit-linear-gradient(left, #09130c, #144924);
+    padding-inline: 16px;
+}
+.navbar{
+    max-width: 1200px;
+    margin-inline: auto;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-list{
+    display: flex;
+    gap: 95px;
+    list-style: none;
+}
+.navbar-list .navbar-item{
+    color: #49a767;
+    text-decoration: none;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar-item{
+    transition: ease-in-out 0.45s 0.01s;
+}
+.navbar-item:hover{
+    color: #00ff00;
+}
+#navbar-logo{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    font-style: normal;
+    color: #8bd6a3;
+    transition: ease 0.3s 0.01s;
+}
+#navbar-logo:hover{
+    color: #31f531;
+}
+.introduction{
+    margin: 0;
+    padding: 0;
+    padding-inline: 36px 16px;
+    display: flex;
+    position: relative;
+    top: 80px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.intro-description{
+    width: 480px;
+    height: 250px;
+}
+.intro-description p{
+    transition: linear 0.45s 0.001s;
+    font-size: 25px;
+    font-family: "PT Sans", sans-serif;
+}
+.intro-img{
+    position: relative;
+    left: 50px;
+}
+.intro-img img{
+    width: 716px;
+    height: 544px;
+}
+.intro-title h1{
+    font-size: 50px;
+    font-family: "PT Sans", sans-serif;
+    transition: linear 0.45s 0.001s;
+}

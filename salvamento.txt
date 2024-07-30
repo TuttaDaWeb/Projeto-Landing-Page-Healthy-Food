@@ -1,0 +1,17 @@
+<p>
+        <div class="home">
+            <div class="home-items">
+                <div class="home-label">
+                    <h2>We do Healthy Foods</h2>
+                </div>
+                <div class="home-p">
+                    <p>
+                        Our Restaurant is Healthy Food Paradise feed over 100 Thousand persons in our City
+                        we have a lot of options of Foods Diferents that go since Bananas even Green Fruits and Vegetables Mix
+                        and our Restaurant is the most Cheap in your City, with Bananas costing $0.5
+                        so do not lose time Buy now our Fruits and Vegetables you willn't repent yourself
+                    </p>
+                </div>
+            </div>
+        </div>
+    </p>
