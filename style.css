@@ -5,10 +5,10 @@
     padding: 0;
 }
 body{
-    background-image: linear-gradient(to right, #28a324, #032500);
+    background-image: linear-gradient(to right, rgb(38, 158, 13), #093008);
 }
 .navbar-header{
-    background: -webkit-linear-gradient(left, #09130c, #144924);
+    background-color: #1a3618;
     padding-inline: 16px;
 }
 .navbar{
@@ -80,4 +80,90 @@ body{
     font-size: 50px;
     font-family: "PT Sans", sans-serif;
     transition: linear 0.45s 0.001s;
+}
+.menu{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 255px;
+    width: 749;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center
+}
+.menu-product{
+    width: 167px;
+    height: 257px;
+    background-image: linear-gradient(to right, rgb(38, 158, 13), #093008);
+    border: 5px solid #003f00;
+    border-radius: 5%;
+    transition: linear 0.25s 0.001s;
+}
+.menu-product:hover{
+    width: 334px;
+    height: 515px;
+}
+.menu-img img{
+    border-radius: 3%;
+}
+.menu-price-and-name{
+    font-family: "PT Sans", sans-serif;
+}
+.menu-price-and-name span{
+    width: 12px;
+    height: 12px;
+    background-color: green;
+    border: 1px solid #295c00;
+    border-radius: 12px;
+}
+.why{
+    position: relative;
+    top: 250px;
+    width: 749;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "PT Sans", sans-serif;
+}
+.why-ask h1{
+    transition: linear 0.9s 0.01s;
+}
+.why-ask h1:hover{
+    color: #00ff00;
+}
+.why-answer h3{
+    transition: ease-in 0.85s 0.01s;
+}
+.why-answer h3:hover{
+    color: yellow;
+}
+.contact{
+    position: relative;
+    top: 580px;
+    width: 749;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-description{
+    font-family: "PT Sans", sans-serif;
+    position: relative;
+    left: 30px;
+}
+.contact-description h1{
+    transition: ease-in 0.85s 0.01s;
+}
+.contact-description h1:hover{
+    color: #00ff00;
+}
+.contact-info h3{
+    transition: ease-in 0.85s 0.01s;
+}
+.contact-info h3:hover{
+    color: yellow;
 }
