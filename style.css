@@ -143,7 +143,7 @@ body{
 }
 .contact{
     position: relative;
-    top: 580px;
+    top: 380px;
     width: 749;
     height: 300px;
     display: flex;
@@ -165,5 +165,27 @@ body{
     transition: ease-in 0.85s 0.01s;
 }
 .contact-info h3:hover{
+    color: yellow;
+}
+.about{
+    position: relative;
+    top: 680px;
+    left: 30px;
+    font-family: "PT Sans", sans-serif;
+}
+.about h2{
+    transition: linear 0.85s 0.001s;
+}
+.about h2:hover{
+    color: #00ff00;
+}
+.about-description{
+    width: 700px;
+    height: 291px;
+}
+.about-description h4{
+    transition: linear 0.85s 0.001s;
+}
+.about-description h4:hover{
     color: yellow;
 }
